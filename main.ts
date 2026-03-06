@@ -26,6 +26,8 @@ basic.clearScreen()
 basic.showIcon(IconNames.Yes)
 
 // turn on red light for 1 second
+basic.showString("Red")
+
 pins.digitalWritePin(DigitalPin.P13, 1)
 pins.digitalWritePin(DigitalPin.P14, 0)
 pins.digitalWritePin(DigitalPin.P15, 0)
